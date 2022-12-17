@@ -4,7 +4,7 @@
 ![](https://img.shields.io/github/issues/Semion-Sh/Flask-YouTube-downloader) 
 
 
-[![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+[![GitHub latest commit](https://badgen.net/github/last-commit/Semion-Sh/Flask-YouTube-downloader)](https://GitHub.com/Semion-Sh/Flask-YouTube-downloader/commit/)
 
 ![master](https://img.shields.io/github/last-commit/badges/shields/master)
 
