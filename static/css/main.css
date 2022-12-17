@@ -1,0 +1,62 @@
+/* #F9F9F9 back */
+/* #FFFFFF back */
+/* FF0000*/
+/* 030303 icons*/
+/* F2F2F2*/
+/* 606060 text*/
+
+
+nav{
+  width: 960px;
+  margin: 0 auto
+}
+
+nav:before {
+  content:'';
+  display:block;
+  height:50px;
+  width:100%;
+  background: #FFFFFF;
+  position: absolute;
+  left: 0;
+  z-index: -1
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px
+  }
+
+ul li {
+  float: left
+}
+
+ul li a{
+  color: #030303;
+  height: 50px;
+  display: block;
+  padding: 0 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 50px
+}
+
+ul li a:hover{
+  background: #F2F2F2
+}
+
+.youtube{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo{
+  cursor: pointer;
+  width: 60px;
+}
+
+.index{
+  text-transform: uppercase;
+}

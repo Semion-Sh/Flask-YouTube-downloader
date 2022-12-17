@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>{% block title %}{% endblock %}</title>
+<!--    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">-->
+</head>
+<body>
+    <div>
+        <header>
+            <nav class="header">
+<!--                <a class="youtube" href="/">-->
+<!--                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/YouTube_Logo_%282013-2017%29.svg/800px-YouTube_Logo_%282013-2017%29.svg.png" class="logo"/>-->
+<!--                </a>-->
+                <ul class="nav_links">
+                    <a class="youtube" href="/">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/YouTube_Logo_%282013-2017%29.svg/800px-YouTube_Logo_%282013-2017%29.svg.png" class="logo"/>
+                    </a>
+                    <li><a href="/"><span>Installer</span></a></li>
+                    <li><a href="/videos">Videos</a></li>
+                    <li><a href="/download_video">Download</a></li>
+                    <li><a href="/about_as">About As</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    {% block body %}{% endblock %}
+</body>
+</html>

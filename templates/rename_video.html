@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}
+Rename video
+{% endblock %}
+
+{% block body %}
+    <h1>Rename</h1>
+    <form method="post">
+        <input type="text" name="title" id="title" size="100" value="{{video.title}}"><br>
+        <input type="submit" value="update"><br>
+    </form>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ video.title }}
+{% endblock %}
+
+{% block body %}
+    <h1>{{ video.title }}</h1>
+    <h2>{{ video.size|string + ' Mb' }}</h2>
+    <a href="/videos">Back</a>
+    <a href="/video/{{ video.id }}/rename">Rename</a>
+    <a href="/video/{{ video.id }}/delete">Remove from history</a>
+
+
+{% endblock %}

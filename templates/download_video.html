@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}
+Download video
+{% endblock %}
+
+{% block body %}
+    <h1>Download video</h1>
+    <form method="post">
+        <input type="text" required name="url" id="url" class="form-control" placeholder="Youtube link"><br>
+        <input type="submit" class="btn btn-success" value="download"><br>
+    </form>
+{% endblock %}
