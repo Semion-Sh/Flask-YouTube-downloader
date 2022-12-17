@@ -2,6 +2,9 @@
 ![](https://img.shields.io/badge/language-Python-brightgreen) 
 [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg)
 ![](https://img.shields.io/github/issues/Semion-Sh/Flask-YouTube-downloader) 
+
+![master](https://img.shields.io/github/last-commit/badges/shields/master)
+
 [![GitHub latest commit](https://badgen.net/github/last-commit/Semion-Sh/Flask-YouTube-downloader)](https://GitHub.com/Semion-Sh/Flask-YouTube-downloader/commit/)
 
 [![GitLab last commit](https://badgen.net/gitlab/last-commit/Semion-Sh/Flask-YouTube-downloader/)](https://gitlab.com/Semion-Sh/Flask-YouTube-downloader)
